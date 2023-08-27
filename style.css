@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+}
+
+#fordevlink{
+    color: hsla(240, 100%, 50%, 0);
+}
+
+#fordevlink:hover{
+    color: hsl(240, 100%, 50%);
+}
+
+#kioydioimg{
+    height: 95vh;
+}
+
+@media screen and (max-width:600px) {
+    #kioydioimg{
+        width: 400px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:300px) {
+    #kioydioimg{
+        width: 150px;
+        height: auto;
+    }
+}
+
+
